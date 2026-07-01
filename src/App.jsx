@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Login from './Pages/Login/Login'
-import Signup from './Pages/SignUp/signUp'
+import Signup from './Pages/SignUp/Signup'
 import Home from './Pages/Home/Home'
 import PrivateRoute from './PrivateRoute'
 
