@@ -1,0 +1,106 @@
+.card{
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card img{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.card-content{
+    padding: 18px;
+}
+
+.card-content h3{
+    color: #111827;
+    margin-bottom: 12px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #4b5563;
+    font-size: 15px;
+}
+
+.tags{
+    margin-top: 12px;
+    color: #6b7280;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* View Button */
+
+.view-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.view-img button{
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.view-img button:hover{
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+.view-img button:active{
+    transform: scale(0.98);
+}
+
+/* Dark Mode */
+
+.dark .card{
+    background: #111827;
+    border: 1px solid #374151;
+}
+
+.dark .card-content h3{
+    color: white;
+}
+
+.dark .stats{
+    color: #d1d5db;
+}
+
+.dark .tags{
+    color: #9ca3af;
+}
+
+.dark .card:hover{
+    box-shadow: 0 10px 25px rgba(255,255,255,0.1);
+}
+
+.dark .view-img button{
+    background: #374151;
+    color: white;
+}
+
+.dark .view-img button:hover{
+    background: #4b5563;
+}

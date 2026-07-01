@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.signup{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0f172a;
+}
+
+.signup form{
+    width: 400px;
+    background: #1e293b;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(59,130,246,0.4);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.signup h1{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.signup input{
+    padding: 14px;
+    border: 2px solid #334155;
+    border-radius: 10px;
+    background: #0f172a;
+    color: white;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.signup input:focus{
+    border-color: #3b82f6;
+    box-shadow: 0 0 12px rgba(59,130,246,0.5);
+}
+
+.signup input::placeholder{
+    color: #94a3b8;
+}
+
+.signup button{
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(
+        135deg,
+        #3b82f6,
+        #8b5cf6
+    );
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.signup button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(59,130,246,0.5);
+}
+
+.signup p{
+    text-align: center;
+    color: #cbd5e1;
+}
+
+.signup a{
+    color: #60a5fa;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.signup a:hover{
+    text-decoration: underline;
+}
+
+@media(max-width:480px){
+    .signup form{
+        width: 90%;
+        padding: 30px;
+    }
+}
