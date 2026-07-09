@@ -2,6 +2,9 @@
 
 A modern image search application built with React. This project uses the Pixabay API for image search and Firebase for authentication.
 
+## Live Demo
+https://pixabayxcloneapp.netlify.app/
+
 ---
 
 ## 🚀 Features
